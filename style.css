@@ -1,0 +1,376 @@
+*{
+    /*Esta propiedad hace que el valor que le demos al magin border o padding de nuestros 
+    elementos, no crescan mas de el valor que se les dio.*/
+    box-sizing: border-box; 
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    /*En el body quitaremos el margen que trae por defecto, le cambiaremos la fuente y 
+    le datremos un color. */
+    font-family: 'Roboto',sans-serif;
+    margin: 0%;
+}
+
+h1{font-size: 8vw;}
+h2{font-size: 7vw;}
+h3{font-size: 6vw;}
+p{font-size: 4vw;}
+ul{list-style:none;}
+li{font-size: large;}
+
+button{
+    font-size: 6vw;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid burlywood;
+    box-shadow: 2px 2px 10px brown;
+    color: brown;
+    background-color:khaki;
+}
+button:hover{
+    color: burlywood;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+header{
+    background-color: khaki;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+    
+}
+
+header p{
+    margin: 0%;
+    padding: 25px 10px;
+    font-weight: bold;
+    color: brown;
+    font-size: 1.35em;
+}
+
+header img{
+    height: 80px;
+    border-radius: 60%;
+    margin: 10px 10px;
+    box-shadow: 12px 12px 30px brown;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 25px;
+}
+
+header a {
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: brown;
+}
+
+header a:hover{
+    color: burlywood;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: burlywood;
+
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/motherboard2.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero h1{
+    font-size: 8vw;
+}
+
+.color1{
+    color: brown;
+}
+
+#nosotros{
+    display: flex;
+    background-color: khaki;
+    height: 100vh;
+   
+}
+
+#nosotros h2{
+    font-size: 8vw;
+}
+
+#nosotros .container{
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.color2{
+    color: burlywood;
+}
+.color3{
+    color: bisque;
+}
+
+#productos{
+    color: burlywood;
+    text-align: center;
+
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.9),
+        rgba(0,0,0,0.9)
+    )
+    ,url("img/componentes.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#productos .container{
+    padding: 10px 0px;
+}
+
+#productos h3{
+    margin-top: 0%;
+}
+
+#productos p{
+    display: none;
+}
+
+#productos .carta{
+    background-position: center center;
+    background-size: cover;
+
+    padding: 50px;
+    margin: 12px;
+    border-radius: 10%;
+
+}
+
+.carta:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/reparador.jpg");
+
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/depositphotos.jpg");
+    
+}
+
+.carta:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/motherboard.jpg");
+    
+}
+
+#caracteristicas .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    color: bisque;
+
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+    )
+    ,url("img/componentes.jpg");
+
+    background-position: center center;
+    background-size: cover;
+
+}
+
+#caracteristicas li{
+    margin: 16px 0px;
+    font-weight: bold;
+}
+
+#comprar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.8),
+        rgba(0,0,0,0.8)
+    )
+    ,url("img/motherboard5.jpg");
+
+    background-position: center center;
+    background-size: cover;
+    color: brown;
+    height: 100vh;
+
+}
+
+#comprar h2{
+    font-size: 8vw;
+}
+.logo2 img{
+    height: 200px;
+    border-radius: 60%;
+    margin: 30px;
+    box-shadow: 12px 12px 12px brown;
+}
+
+footer{
+    background-color: rgb(210,210,210);
+}
+
+footer p{
+    margin: 0%;
+    padding: 12px;
+    color: rgb(100,100,100);
+
+}
+
+footer .container{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+@media(min-width: 628px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    
+    .container{
+        max-width: 100%;
+    }
+
+
+    .logo{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding: 0;
+        padding-right: 26px;
+    }
+
+    #hero h1{
+        font-size: 60px;
+    }
+
+    #hero button{
+        font-size: medium;
+    }
+
+    
+    #nosotros h2{
+        font-size: 50px;
+    }
+    #nosotros .container p{
+        font-size: 20px;
+    }
+
+
+    #productos{
+        height: 100vh;
+        display: flex;
+    }
+
+    #productos .container h2{
+        font-size: 50px;
+    }
+
+    #productos .componentes .carta h3{
+        font-size: 30px;
+    }
+
+    #productos .componentes .carta p{
+        font-size: 20px;
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #productos .componentes .carta button{
+        font-size: medium;
+    }
+
+    #productos .componentes{
+        display: flex;
+
+    }
+
+    #comprar h2{
+        font-size: 50px;
+        padding: 20px;
+    }
+
+    #comprar button{
+        font-size: medium;
+        margin-bottom: 20px;
+    }
+
+    footer .container p{
+        font-size: 20px;
+    }
+}
