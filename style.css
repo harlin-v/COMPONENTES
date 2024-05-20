@@ -15,15 +15,15 @@ body{
     margin: 0%;
 }
 
-h1{font-size: 8vw;}
-h2{font-size: 7vw;}
-h3{font-size: 6vw;}
+h1{font-size: 7vw;}
+h2{font-size: 6vw;}
+h3{font-size: 5vw;}
 p{font-size: 4vw;}
 ul{list-style:none;}
 li{font-size: large;}
 
 button{
-    font-size: 6vw;
+    font-size: 4vw;
     font-weight: bold;
     padding: 10px 20px;
     border-radius: 10px;
@@ -224,7 +224,7 @@ header a:hover{
         rgba(0,0,0,0.7),
         rgba(0,0,0,0.7)
     )
-    ,url("img/componentes.jpg");
+    ,url("img/motherboard3.jpg");
 
     background-position: center center;
     background-size: cover;
@@ -284,6 +284,7 @@ footer .container{
     align-items: flex-end;
 
 }
+
 
 @media(min-width: 850px){
     header{
