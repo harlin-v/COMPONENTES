@@ -285,7 +285,7 @@ footer .container{
 
 }
 
-@media(min-width: 500px){
+@media(min-width: 850px){
     header{
         position: fixed;
         width: 100%;
