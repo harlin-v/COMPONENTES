@@ -15,6 +15,7 @@ body{
     margin: 0%;
 }
 
+/*En este punto he optado por darle estilo de maner general a los titulos lista y parrafos.*/
 h1{font-size: 7vw;}
 h2{font-size: 6vw;}
 h3{font-size: 5vw;}
@@ -22,6 +23,7 @@ p{font-size: 4vw;}
 ul{list-style:none;}
 li{font-size: large;}
 
+/*Los botones tambien tendran un estilo general*/
 button{
     font-size: 4vw;
     font-weight: bold;
@@ -36,6 +38,7 @@ button:hover{
     color: burlywood;
 }
 
+/*Este contenedor*/
 .container{
     max-width: 1000px;
     margin: auto;
@@ -143,11 +146,11 @@ header a:hover{
     color: bisque;
 
 }
-
+/*Este es el estilo de las cartas de nuestro documento index.htlm en la seccion productos*/
 #productos{
     color: burlywood;
     text-align: center;
-    height: 100vh;
+    height: 80vh;
 
     background-image: linear-gradient(
         0deg,
@@ -177,8 +180,8 @@ header a:hover{
     background-position: center center;
     background-size: cover;
 
-    padding: 50px;
-    margin: 12px;
+    padding: 30px;
+    margin: 6px;
     border-radius: 10%;
 
 }
@@ -213,6 +216,9 @@ header a:hover{
     
 }
 
+
+
+/*Este es el estilo de la seccion caracteristicas que solo cuenta con una lista de adjetivos.*/
 #caracteristicas .container{
     display: flex;
     justify-content: center;
@@ -238,6 +244,8 @@ header a:hover{
     font-weight: bold;
 }
 
+
+/*Esta es nuestra secion comprar, la cual contiene un logo.*/
 #comprar{
     display: flex;
     justify-content: center;
@@ -288,7 +296,7 @@ footer .container{
 }
 
 
-@media(min-width: 850px){
+@media(min-width: 700px){
     header{
         position: fixed;
         width: 100%;
