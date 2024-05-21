@@ -1,4 +1,4 @@
-{
+*{
     /*Esta propiedad hace que el valor que le demos al margin border o padding de nuestros 
     elementos, no crescan mas de el valor que se les dio.*/
     box-sizing: border-box; 
