@@ -237,12 +237,12 @@ header a:hover{
 }
 
 #procesadores .container{
-    padding: 10px 0px;
+    padding: 10px 10px;
 }
 
 #procesadores h3{
-    margin-top: 0%;
-    margin-bottom: 30px;
+    margin-top: 5%;
+    margin-bottom: 60px;
 }
 
 #procesadores p{
@@ -288,6 +288,26 @@ header a:hover{
         rgba(0,0,0,0.5)
     )
     ,url("img/Celeron.jpg");
+    
+}
+
+.procesador:nth-child(4){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/AMD-RYZEN-3-LOGO.png");
+    
+}
+
+.procesador:nth-child(5){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/ryzen\ 5.jpg");
     
 }
 
