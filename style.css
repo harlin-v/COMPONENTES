@@ -44,7 +44,7 @@ button:hover{
     margin: auto;
 }
 header{
-    background-color: khaki;
+    background-color: cadetblue;
 }
 
 .logo{
@@ -125,13 +125,14 @@ header a:hover{
 
 #nosotros{
     display: flex;
-    background-color: khaki;
+    background-color:cadetblue;
     height: 100vh;
    
 }
 
 #nosotros h2{
     font-size: 8vw;
+    color: brown;
 }
 
 #nosotros .container{
