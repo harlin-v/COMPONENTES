@@ -29,10 +29,10 @@ button{
     font-weight: bold;
     padding: 10px 20px;
     border-radius: 10px;
-    border: 1px solid burlywood;
-    box-shadow: 2px 2px 10px brown;
+    border: 1px solid cadetblue;
+    box-shadow: 2px 2px 10px cadetblue;
     color: brown;
-    background-color:khaki;
+    background-color:cadetblue;
 }
 button:hover{
     color: burlywood;
@@ -120,7 +120,7 @@ header a:hover{
 }
 
 .color1{
-    color: brown;
+    color: cadetblue;
 }
 
 #nosotros{
@@ -215,6 +215,81 @@ header a:hover{
     ,url("img/motherboard.jpg");
     
 }
+
+/*Este es el estilo de las tarjetas procesadores de nuestro documento procesadores.htlm
+ en la seccion procesador*/
+#procesadores{
+    color: burlywood;
+    text-align: center;
+    height: 80vh;
+
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.9),
+        rgba(0,0,0,0.9)
+    )
+    ,url("img/componentes.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#procesadores .container{
+    padding: 10px 0px;
+}
+
+#procesadores h3{
+    margin-top: 0%;
+    margin-bottom: 30px;
+}
+
+#procesadores p{
+    display: none;
+}
+
+#procesadores .procesador{
+    /* background-position: center; */
+    background-size: 100% 35%;
+    background-repeat: no-repeat;
+    background-color: rgb(80,80,80);
+    background-position-y: 0%;
+    padding: 50px;
+    margin: 30px;
+    border-radius: 10%;
+
+}
+
+.procesador:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/core-x-series.jpg");
+
+}
+
+.procesador:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/Pentium-1.jpg");
+    
+}
+
+.procesador:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/Celeron.jpg");
+    
+}
+
 
 
 
@@ -371,6 +446,37 @@ footer .container{
 
     }
 
+    /*Este es el estilo de las tarjetas procesador de nuestro documento procesadores.htlm
+    en la seccion procesadores*/
+    #procesadores{
+        height: 100vh;
+        display: flex;
+    }
+
+    #procesadores .container h2{
+        font-size: 50px;
+    }
+
+    #procesadores .componentes .procesador h3{
+        font-size: 30px;
+    }
+
+    #procesadores .componentes .procesador p{
+        font-size: 15px;
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #procesadores .componentes .procesador button{
+        font-size: medium;
+    }
+
+    #procesadores .componentes{
+        display: flex;
+
+    }
+
+/*Esta es nuestra seccion de compras */
     #comprar h2{
         font-size: 50px;
         padding: 20px;
