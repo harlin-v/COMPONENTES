@@ -16,12 +16,18 @@ body{
 }
 
 /*En este punto he optado por darle estilo de maner general a los titulos lista y parrafos.*/
-h1{font-size: 7vw;}
-h2{font-size: 6vw;}
-h3{font-size: 5vw;}
-p{font-size: 4vw;}
-ul{list-style:none;}
-li{font-size: large;}
+h1{font-size: 7vw;
+    font-weight: bold;}
+h2{font-size: 6vw;
+    font-weight: bold;}
+h3{font-size: 5vw;
+    font-weight: bold;}
+p{font-size: 4vw;
+    font-weight: bold;}
+ul{list-style:none;
+    font-weight: bold;}
+li{font-size: large;
+    font-weight: bold;}
 
 /*Los botones tambien tendran un estilo general*/
 button{
@@ -38,7 +44,7 @@ button:hover{
     color: burlywood;
 }
 
-/*Este contenedor*/
+/*Este contenedor contiene los estilos que usaremos en nuestro encabezado.*/
 .container{
     max-width: 1000px;
     margin: auto;
@@ -74,6 +80,7 @@ header .container{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 header nav{
@@ -94,6 +101,8 @@ header a:hover{
     color: burlywood;
 }
 
+
+/*Este es el estilo de nuestra primera seccion "hero"*/
 #hero{
     display: flex;
     align-items: center;
@@ -119,10 +128,6 @@ header a:hover{
     font-size: 8vw;
 }
 
-.color1{
-    color: cadetblue;
-}
-
 #nosotros{
     display: flex;
     background-color:cadetblue;
@@ -140,13 +145,24 @@ header a:hover{
     padding: 20px 20px;
 }
 
+.color1{
+    color: cadetblue;
+}
+
 .color2{
     color: burlywood;
 }
+
 .color3{
     color: bisque;
-
 }
+
+.color4{
+    color: brown;
+    font-weight: bold;
+}
+
+
 /*Este es el estilo de las cartas de nuestro documento index.htlm en la seccion productos*/
 #productos{
     color: burlywood;
@@ -312,6 +328,174 @@ header a:hover{
 }
 
 
+/*Este es el estilo de las tarjetas de cada "circuito" en nuestro documento "circuitos".*/
+#circuitos{
+    color: burlywood;
+    text-align: center;
+    height: 80vh;
+
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.9),
+        rgba(0,0,0,0.9)
+    )
+    ,url("img/componentes.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#circuitos .container{
+    padding: 10px 10px;
+}
+
+#circuitos h3{
+    margin-top: 5%;
+    margin-bottom: 40px;
+}
+
+#circuitos p{
+    display: none;
+}
+
+#circuitos button{
+    margin-top: 0%;
+    margin: 2%;
+}
+
+#circuitos .circuito{
+    /* background-position: center; */
+    background-size: 100% 35%;
+    background-repeat: no-repeat;
+    background-color: rgb(80,80,80);
+    background-position-y: 0%;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10%;
+
+}
+
+.circuito:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/OPTOACOPLADOR.webp");
+
+}
+
+.circuito:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/555.jpg");
+    
+}
+
+.circuito:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/CXP5016.webp");
+    
+}
+
+.circuito:nth-child(4){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/AMD-RYZEN-3-LOGO.png");
+    
+}
+
+.circuito:nth-child(5){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/ryzen\ 5.jpg");
+    
+}
+
+
+
+
+/*Este  es el estilo de nuestro documento "motherboards" el cuel contiene tres tarjetas*/
+#motherboards{
+    color: burlywood;
+    text-align: center;
+    height: 80vh;
+
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.9),
+        rgba(0,0,0,0.9)
+    )
+    ,url("img/componentes.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#motherboards .container{
+    padding: 10px 10px;
+}
+
+#motherboards h2{
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+#motherboards h3{
+    margin-top: 5%;
+    margin-bottom: 60px;
+}
+
+#motherboards p{
+    display: none;
+}
+
+#motherboards .motherboard{
+    /* background-position: center; */
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-color: rgb(80,80,80);
+    /* background-position-y: 0%; */
+    padding: 50px;
+    margin: 10px;
+    border-radius: 10%;
+
+}
+
+.motherboard:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/placa-base-atx-768x768.webp");
+
+}
+
+.motherboard:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("img/ASRock-Z690-Taichi-e1635415133347.webp");
+    
+}
 
 
 /*Este es el estilo de la seccion caracteristicas que solo cuenta con una lista de adjetivos.*/
@@ -495,6 +679,66 @@ footer .container{
     }
 
     #procesadores .componentes{
+        display: flex;
+
+    }
+
+    /*Estas son las modificaciones de cada tarjeta del documento circuto*/
+    #circuitos{
+        height: 100vh;
+        display: flex;
+    }
+
+    #circuitos .container h2{
+        font-size: 50px;
+        margin-bottom: 0%;
+    }
+
+    #circuitos .componentes .circuito h3{
+        font-size: 30px;
+    }
+
+    #circuitos .componentes .circuito p{
+        font-size: 15px;
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #circuitos .componentes .circuito button{
+        font-size: medium;
+    }
+
+    #circuitos .componentes{
+        display: flex;
+
+    }
+
+
+    /*Este es el estilo responsivo de las motherboards*/
+    #motherboards{
+        height: 100vh;
+        display: flex;
+    }
+
+    #motherboards .container h2{
+        font-size: 50px;
+    }
+
+    #motherboards .componentes .motherboard h3{
+        font-size: 30px;
+    }
+
+    #motherboards .componentes .motherboard p{
+        font-size: 15px;
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #motherboards .componentes .motherboard button{
+        font-size: medium;
+    }
+
+    #motherboards .componentes{
         display: flex;
 
     }
